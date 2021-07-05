@@ -85,7 +85,7 @@ function App() {
       method: 'POST',
       body: JSON.stringify(movie),
       headers:{
-        'Content-Typr': 'application/json'
+        'Content-Type': 'application/json'
       }  
   });
 
